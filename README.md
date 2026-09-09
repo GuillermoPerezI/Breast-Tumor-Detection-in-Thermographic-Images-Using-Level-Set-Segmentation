@@ -33,7 +33,7 @@ Breast cancer, Breast thermography, Computer-aided diagnosis (CAD), Convolutiona
 The proposed approach follows a multi-stage processing pipeline:
 
 <p align="center">
-  <img src="method.png" alt="Proposed methodology" width="500">
+  <img src="method.png" alt="Proposed methodology" width="650">
 </p>
 
 The methodology combines image processing, segmentation, classical feature extraction, deep feature extraction, feature fusion, and machine learning classification.
