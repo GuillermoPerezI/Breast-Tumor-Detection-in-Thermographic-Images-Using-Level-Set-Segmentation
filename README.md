@@ -119,23 +119,22 @@ The dataset included in this repository corresponds to the data used in the stud
 The repository is organized according to the main data generated throughout the experimental process.
 
 ```text
-.
-├── dataset/
-│   └── Original thermographic images
-│
-├── cnn_input_images/
-│   └── 32 × 32 CNN input patches
-│
-├── classical_features/
-│   └── Classical image features extracted from ROIs
-│
-├── cnn_features/
-│   └── Deep features extracted from the CNN
-│
-├── classification_results/
-│   └── Classification results and evaluation data
-│
-└── README.md
+
+── dataset/
+   ── Original thermographic images
+
+── cnn_input_images/
+   ── 32 × 32 CNN input patches
+
+── classical_features/
+   ── Classical image features extracted from ROIs
+
+── cnn_features/
+   ── Deep features extracted from the CNN
+
+── classification_results/
+   ── Classification results and evaluation data
+── README.md
 ```
 
 The exact folder names may vary depending on the organization of the repository.
@@ -213,24 +212,9 @@ were generated from the thermographic images.
 
 The proposed system uses two complementary types of features:
 
-```text
-                 Segmented ROI
-                       │
-          ┌────────────┴────────────┐
-          │                         │
-          ▼                         ▼
- Classical Features            CNN Features
-          │                         │
-          └────────────┬────────────┘
-                       ▼
-                 Feature Fusion
-                       │
-                       ▼
-                 Hybrid Vector
-                       │
-                       ▼
-                   MLP Model
-```
+<p align="center">
+  <img src="fusion.png" alt="Feature Representation" width="650">
+</p>
 
 The motivation for this representation is to combine explicitly defined image descriptors with learned deep representations.
 
