@@ -213,7 +213,7 @@ were generated from the thermographic images.
 The proposed system uses two complementary types of features:
 
 <p align="center">
-  <img src="fusion.png" alt="Feature Representation" width="650">
+  <img src="fusion.png" alt="Feature Representation" width="5000">
 </p>
 
 The motivation for this representation is to combine explicitly defined image descriptors with learned deep representations.
