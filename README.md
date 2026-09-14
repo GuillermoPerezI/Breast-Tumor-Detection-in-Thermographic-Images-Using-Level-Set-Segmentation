@@ -284,14 +284,4 @@ Clinical diagnosis must be performed by qualified healthcare professionals using
 
 ---
 
-## License
 
-A license should be specified according to the conditions under which the dataset, derived features, and code can be redistributed and reused.
-
-If the original thermographic dataset is subject to specific usage restrictions, those restrictions take precedence over the repository license.
-
----
-
-## Contact
-
-For questions regarding the methodology, experimental data, or research project, please contact the corresponding author of the associated publication.
