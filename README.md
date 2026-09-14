@@ -250,21 +250,6 @@ The provided materials include:
 
 For complete reproduction of the experiments, the corresponding implementation, trained model parameters, preprocessing configuration, segmentation parameters, and experimental settings may also be required.
 
----
-
-## Citation
-
-If you use the data, features, results, or methodology presented in this repository, please cite the corresponding article:
-
-```text
-Author(s). "Breast Cancer Detection and Segmentation in Thermographic
-Images Using Classical and Deep Features." [Journal/Conference],
-[Year].
-```
-
-The complete citation will be updated once the article has been published.
-
----
 
 ## Research Context
 
