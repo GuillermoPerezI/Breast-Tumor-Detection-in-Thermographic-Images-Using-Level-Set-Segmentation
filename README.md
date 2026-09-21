@@ -230,7 +230,7 @@ The original implementation and experiments were developed using:
 * Multilayer Perceptron (MLP)
 * Gradient Vector Flow (GVF)
 * Level Set segmentation
-* Gray-Level Co-occurrence Matrix (GLCM) analysis
+  
 
 The repository primarily provides the experimental data and results associated with the study. The presence of data and derived features does not necessarily imply that the complete processing pipeline can be reproduced without the original implementation and model parameters.
 
